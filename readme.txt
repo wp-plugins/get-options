@@ -13,7 +13,6 @@ This plugin shows you **all WordPress Options** in the admin panel, on a dedicat
 you can also see the **serialized** options, on a very readable human way ! (just for the administrators of the site)
 This can be useful for developers.
 
-
 == Installation ==
 
 1. Upload the directory `get-options` to the `/wp-content/plugins/` directory
@@ -25,25 +24,19 @@ There is a link on the submenu on the "tools" menu
 = I can not see the link to the options page =
 Just the administrators can see it
 
-
 == Screenshots ==
-
 1. The new submenu in the Tools menu.
 2. The serialized data, easily readable.
 
 == Changelog ==
-
 = 1.0 =
 * First version !
-
 = 1.1.0 =
 * Just some changes in the readme.txt file
 
 == Upgrade Notice ==
-
 = 1.0 =
 First version !
 
-
 == Contact info ==
-Here's a link to [My personal Website](http://gillesdumas.com/ "my personal website")
+Here's a link to [my personal website](http://gillesdumas.com/ "my personal website")
