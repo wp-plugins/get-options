@@ -1,0 +1,9 @@
+
+msgid "All the WordPress options"
+msgstr "Toutes les options WP"
+
+msgid "hello world"
+msgstr "bonjour le monde"
+
+msgid "See each WP serialized option by clicking on it !"
+msgstr "Vous pouvez visualiser chaque donnée sérialisée en cliquant sur SERIALIZED DATA."
