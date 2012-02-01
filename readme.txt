@@ -2,7 +2,7 @@
 Contributors: gilles66
 Tags: options, admin, debug
 Requires at least: 3.2.1
-Tested up to: 3.2.1
+Tested up to: 3.3.1
 Stable tag: 1.0
 
 View all the WordPress Options
@@ -20,10 +20,10 @@ This can be useful for developers.
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently Asked Questions ==
-
-= A question that someone might have =
-
-An answer to that question.
+= How can I see the page ? =
+There is a link on the submenu on the "tools" menu
+= I can not see the link to the options page =
+Just the administrators can see it
 
 
 == Screenshots ==
@@ -43,4 +43,4 @@ First version !
 
 
 == Contact info ==
-Here's a link to [My personal Website](http://gillesdumas.com/ "My personal website")
+Here's a link to [My personal Website](http://gillesdumas.com/ "my personal website")
