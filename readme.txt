@@ -3,7 +3,7 @@ Contributors: gilles66
 Tags: options, admin, debug
 Requires at least: 3.2.1
 Tested up to: 3.3.1
-Stable tag: 1.1.0
+Stable tag: 1.1.3
 
 View all the WordPress Options
 
@@ -33,10 +33,16 @@ Just the administrators can see it
 * First version !
 = 1.1.0 =
 * Just some changes in the readme.txt file
+= 1.1.1 =
+* Just some changes in the readme.txt file
+= 1.1.2 =
+* Just some changes in the readme.txt file
 
 == Upgrade Notice ==
 = 1.0 =
 First version !
+= 1.1.3 =
+Cool version !
 
 == Contact info ==
 Here's a link to [my personal website](http://gillesdumas.com/ "my personal website")
