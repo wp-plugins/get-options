@@ -3,7 +3,7 @@ Contributors: gilles66
 Tags: options, admin, debug
 Requires at least: 3.2.1
 Tested up to: 3.3.1
-Stable tag: 1.1.5
+Stable tag: 1.1.6
 
 View all the WordPress Options
 
@@ -30,8 +30,10 @@ Just the administrators can see it
 2. The serialized data, easily readable.
 
 == Changelog ==
+= 1.1.6 =
+* Changing the file banner
 = 1.1.5 =
-* Just details.
+* Nothing important.
 = 1.1.4 =
 * Just some changes in the readme.txt file because I had some troubles with svn.
 = 1.1.3 =
@@ -46,8 +48,6 @@ Just the administrators can see it
 * First version !
 
 == Upgrade Notice ==
-= 1.1.5 =
-Nothing
 = 1.1.4 =
 Coolest version !
 = 1.1.3 =
