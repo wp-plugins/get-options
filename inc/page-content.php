@@ -48,7 +48,7 @@
 	<td>";
 		
 		if ($data_serialize == true) {
-			echo "<span class='regular-text $class show_data_serialized' id='$name' title='Click to view this data !'>".$value."</span>";
+			echo "<span class='regular-text $class show_data_serialized' id='$name' title='".__('Click to view this data !', 'get-options')."'>".$value."</span>";
 			echo '<pre name="'.$name.'" id="'.$name.'" style="display:none;">';
 			print_r($my_value);
 			echo '</pre>';

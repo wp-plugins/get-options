@@ -7,3 +7,6 @@ msgstr "bonjour le monde"
 
 msgid "See each WP serialized option by clicking on it !"
 msgstr "Vous pouvez visualiser chaque donnée sérialisée en cliquant sur SERIALIZED DATA."
+
+msgid "Click to view this data !"
+msgstr "Cliquez pour voir cette donnée sérialisée."

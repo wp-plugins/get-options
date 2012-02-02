@@ -3,7 +3,7 @@ Contributors: gilles66
 Tags: options, admin, debug
 Requires at least: 3.2.1
 Tested up to: 3.3.1
-Stable tag: 1.1.3
+Stable tag: 1.1.4
 
 View all the WordPress Options
 
@@ -17,6 +17,7 @@ This can be useful for developers.
 
 1. Upload the directory `get-options` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Use it !
 
 == Frequently Asked Questions ==
 = How can I see the page ? =
@@ -29,20 +30,26 @@ Just the administrators can see it
 2. The serialized data, easily readable.
 
 == Changelog ==
-= 1.0 =
-* First version !
-= 1.1.0 =
-* Just some changes in the readme.txt file
-= 1.1.1 =
+= 1.1.4 =
+* Just some changes in the readme.txt file because I had some troubles with svn.
+= 1.1.3 =
 * Just some changes in the readme.txt file
 = 1.1.2 =
 * Just some changes in the readme.txt file
+= 1.1.1 =
+* Just some changes in the readme.txt file
+= 1.1.0 =
+* Just some changes in the readme.txt file
+= 1.0 =
+* First version !
 
 == Upgrade Notice ==
-= 1.0 =
-First version !
+= 1.1.4 =
+Coolest version !
 = 1.1.3 =
 Cool version !
+= 1.0 =
+First version !
 
 == Contact info ==
 Here's a link to [my personal website](http://gillesdumas.com/ "my personal website")
