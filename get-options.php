@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: Get Options
-Plugin URI: http://adresseContenantLesInfosSurVotrePlugin
+Plugin URI: http://wordpress.org/extend/plugins/get-options/
 Description: View all the WordPress Options, even the serialized ones !
-Version: 1.1.6
+Version: 1.1.7
 Author: Gilles Dumas
 Author URI: http://gillesdumas.com
 */

@@ -24,3 +24,12 @@ msgstr "Vous pouvez visualiser chaque donnée sérialisée en cliquant sur SERIA
 msgid "Click to view this data !"
 msgstr "Cliquez pour voir cette donnée sérialisée."
 
+msgid "Display all types of data"
+msgstr "Afficher tous les types de données"
+
+msgid "Display only non serialized data"
+msgstr "Afficher uniquement les données non sérialisés"
+
+msgid "Display only serialized data"
+msgstr "Afficher uniquement les données sérialisées"
+

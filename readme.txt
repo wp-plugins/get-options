@@ -2,8 +2,8 @@
 Contributors: gilles66
 Tags: options, admin, debug
 Requires at least: 3.2.1
-Tested up to: 3.3.1
-Stable tag: 1.1.6
+Tested up to: 3.3.2
+Stable tag: 1.1.7
 
 View all the WordPress Options
 
@@ -20,16 +20,18 @@ This can be useful for developers.
 3. Use it !
 
 == Frequently Asked Questions ==
-= How can I see the page ? =
-There is a link on the submenu on the "tools" menu
+= How can I see the plugin page ? =
+There is a link on the submenu on the "tools" menu.
 = I can not see the link to the options page =
-Just the administrators can see it
+Just the administrators can see it.
 
 == Screenshots ==
 1. The new submenu in the Tools menu.
-2. The serialized data, easily readable.
+2. The serialized data, easily readable and human friendly.
 
 == Changelog ==
+= 1.1.7 =
+* Adding the choice of the type of data to display (serialized or not serialized, or all types of data)
 = 1.1.6 =
 * Changing the file banner
 = 1.1.5 =
