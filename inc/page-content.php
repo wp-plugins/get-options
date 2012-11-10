@@ -77,6 +77,7 @@
 			margin-right:14px;
 			padding:9px 32px 9px 9px;
 			background-color:#eee;
+         box-shadow: 1px 1px 8px #aaa;
 		}
 			form#switch_display .div_radio.selected {
 				background:url(<?php echo plugins_url('get-options/img/check.png'); ?>) no-repeat right;
