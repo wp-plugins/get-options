@@ -3,7 +3,7 @@ Contributors: gilles66
 Tags: options, admin, debug
 Requires at least: 3.2.1
 Tested up to: 3.4.2
-Stable tag: 1.1.8
+Stable tag: 1.1.9
 
 View all the WordPress Options
 
@@ -30,6 +30,8 @@ Just the administrators can see it.
 2. The serialized data, easily readable and human friendly.
 
 == Changelog ==
+= 1.1.9 =
+* Correction of a bad version number
 = 1.1.8 =
 * Checking compatibility with wp 3.4.2
 = 1.1.7 =
