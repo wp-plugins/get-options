@@ -2,8 +2,8 @@
 Contributors: gilles66
 Tags: options, admin, debug
 Requires at least: 3.2.1
-Tested up to: 3.3.2
-Stable tag: 1.1.7
+Tested up to: 3.4.2
+Stable tag: 1.1.9
 
 View all the WordPress Options
 
@@ -30,6 +30,10 @@ Just the administrators can see it.
 2. The serialized data, easily readable and human friendly.
 
 == Changelog ==
+= 1.1.9 =
+* Correction of a bad version number
+= 1.1.8 =
+* Checking compatibility with wp 3.4.2
 = 1.1.7 =
 * Adding the choice of the type of data to display (serialized or not serialized, or all types of data)
 = 1.1.6 =
