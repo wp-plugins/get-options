@@ -2,14 +2,14 @@
 /*
 Plugin Name: Get Options
 Plugin URI: http://wordpress.org/extend/plugins/get-options/
-Description: View all the WordPress Options, even the serialized ones !
-Version: 1.1.9
+Description: View all the WordPress Options, <strong>even the serialized ones !</strong>
+Version: 1.2.0
 Author: Gilles Dumas
 Author URI: http://gillesdumas.com
 */
 ?>
 <?php
-/*  Copyright 2012  Gilles Dumas  (gillesdumas66@gmail.ocm)
+/*  Copyright 2013  Gilles Dumas  (circusmind@gmail.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -25,10 +25,6 @@ Author URI: http://gillesdumas.com
     along with this program; if not, write to the Free Software
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
-?>
-<?php
-
-
 
 
 /**
@@ -43,8 +39,8 @@ function getoptions_init() {
 	$page_title = __('All the WordPress options', 'get-options'); // <title>...</title>
 	$menu_title = 'Get Options'; // Nom du plugin affiché
 	$capability = 'administrator'; // (le menu sera visible par les admin)
-	$menu_slug = 'all_options'; // ex : wp-admin/options-general.php?page=all_options
-	$function  = 'all_options_page';
+	$menu_slug  = 'all_options'; // ex : wp-admin/options-general.php?page=all_options
+	$function   = 'all_options_page';
 	add_submenu_page('tools.php', $page_title, $menu_title, $capability, $menu_slug, $function);
 }
 add_action('admin_menu', 'getoptions_init', 100);
@@ -54,6 +50,3 @@ add_action('admin_menu', 'getoptions_init', 100);
 function all_options_page() {
 	require_once('inc/page-content.php');
 }
-
-
-?>

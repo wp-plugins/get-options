@@ -52,7 +52,7 @@
 	<style type="text/css">
 		.show_data_serialized {
 			cursor:pointer;
-			background:gold;
+			background:pink;
 			padding:2px 0;
 			width: 25em;
 			display:inline-block;

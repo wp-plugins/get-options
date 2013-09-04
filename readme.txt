@@ -1,9 +1,9 @@
 === get options ===
 Contributors: gilles66
-Tags: options, admin, debug
+Tags: options, admin, debug, tool
 Requires at least: 3.2.1
-Tested up to: 3.4.2
-Stable tag: 1.1.9
+Tested up to: 3.6
+Stable tag: 1.2.0
 
 View all the WordPress Options
 
@@ -30,6 +30,8 @@ Just the administrators can see it.
 2. The serialized data, easily readable and human friendly.
 
 == Changelog ==
+= 1.2.0 =
+* Compatibility with wp 3.6
 = 1.1.9 =
 * Correction of a bad version number
 = 1.1.8 =
