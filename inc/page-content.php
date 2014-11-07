@@ -7,16 +7,30 @@
 <div style="margin-top:10px;padding:10px;font-weight:bold;" class="info">
 	<?php _e("See each WP serialized option by clicking on it !", 'get-options'); ?>
 </div>
-
+<?php
+global $wpdb;
+$options = $wpdb->get_results( "SELECT * FROM $wpdb->options ORDER BY option_name" );
+$nb_options               = count($options);
+$nb_options_serialized    = 0;
+$nb_options_no_serialized = 0;
+foreach ( (array) $options as $option ) {
+	if ( is_serialized( $option->option_value ) ) {
+		$nb_options_serialized++;
+	}
+	else {
+		$nb_options_no_serialized++;
+	}
+}
+?>
 <form name="switch_display" id="switch_display" action="">
 	<div class="div_radio selected" id="div_radio_tout">
-		<label for="d0"><?php _e("Display all types of data", 'get-options'); ?></label>
+		<label for="d0"><?php _e("Display all types of data", 'get-options'); ?> (<?php echo $nb_options; ?>)</label>
 	</div>
 	<div class="div_radio" id="div_radio_not_serialized">
-		<label for="d1"><?php _e("Display only non serialized data", 'get-options'); ?></label>
+		<label for="d1"><?php _e("Display only non serialized data", 'get-options'); ?> (<?php echo $nb_options_no_serialized; ?>)</label>
 	</div>
 	<div class="div_radio" id="div_radio_serialized">
-		<label for="d2"><?php _e("Display only serialized data", 'get-options'); ?></label>
+		<label for="d2"><?php _e("Display only serialized data", 'get-options'); ?> (<?php echo $nb_options_serialized; ?>)</label>
 	</div>
 </form>
 
@@ -52,11 +66,11 @@
 	<style type="text/css">
 		.show_data_serialized {
 			cursor:pointer;
-			background:pink;
+			background:lightblue;
 			padding:2px 0;
 			width: 25em;
 			display:inline-block;
-			border-color: #DFDFDF;
+			border:1px #555 solid;
 			-webkit-border-radius: 3px;
 			-moz-border-radius: 3px;
 			border-radius: 3px;
@@ -94,8 +108,6 @@
 	<table class="form-table">
 
 		<?php
-		global $wpdb;
-		$options = $wpdb->get_results( "SELECT * FROM $wpdb->options ORDER BY option_name" );
 		foreach ( (array) $options as $option ) :
 			$disabled = false;
 			$data_serialize = false;
