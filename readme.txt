@@ -2,8 +2,8 @@
 Contributors: gilles66
 Tags: options, admin, debug, tool
 Requires at least: 3.2.1
-Tested up to: 3.6
-Stable tag: 1.2.0
+Tested up to: 4.0
+Stable tag: 2.0.0
 
 View all the WordPress Options
 
@@ -30,6 +30,8 @@ Just the administrators can see it.
 2. The serialized data, easily readable and human friendly.
 
 == Changelog ==
+= 2.0.0 =
+* Compatibility with wp 4.0
 = 1.2.0 =
 * Compatibility with wp 3.6
 = 1.1.9 =
