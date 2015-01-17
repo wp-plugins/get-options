@@ -30,7 +30,7 @@ Author URI: http://gillesdumas.com
 /**
 * Ajout d'une page dans le menu Admin
 */ 
-function getoptions_init() {
+function gwp_getoptions_init() {
 	
 	// Load the language pack
 	load_plugin_textdomain('get-options', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
@@ -43,7 +43,7 @@ function getoptions_init() {
 	$function   = 'all_options_page';
 	add_submenu_page('tools.php', $page_title, $menu_title, $capability, $menu_slug, $function);
 }
-add_action('admin_menu', 'getoptions_init', 100);
+add_action('admin_menu', 'gwp_getoptions_init', 100);
 
 
 
