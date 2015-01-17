@@ -3,7 +3,7 @@
 Plugin Name: Get Options
 Plugin URI: http://wordpress.org/extend/plugins/get-options/
 Description: View all the WordPress Options, <strong>even the serialized ones !</strong>
-Version: 2.0.0
+Version: 2.1.0
 Author: Gilles Dumas
 Author URI: http://gillesdumas.com
 */

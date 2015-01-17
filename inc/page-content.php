@@ -66,16 +66,20 @@ foreach ( (array) $options as $option ) {
 	<style type="text/css">
 		.show_data_serialized {
 			cursor:pointer;
-			background:lightblue;
+			background:LightSkyBlue;
 			padding:2px 0;
 			width: 25em;
 			display:inline-block;
-			border:1px #555 solid;
-			-webkit-border-radius: 3px;
+			/* border:1px #555 solid; */
+			/* -webkit-border-radius: 3px;
 			-moz-border-radius: 3px;
-			border-radius: 3px;
-		}
-		
+            border-radius: 3px; */
+            -moz-box-shadow: 0px 0px 12px 1px #c0c0c0;
+            -webkit-box-shadow: 0px 0px 12px 1px #c0c0c0;
+            -o-box-shadow: 0px 0px 12px 1px #c0c0c0;
+            box-shadow: 0px 0px 12px 1px #c0c0c0;
+            filter:progid:DXImageTransform.Microsoft.Shadow(color=#c0c0c0, Direction=NaN, Strength=12);
+}		
 		/*=======================
 		 form de choix de données à voir
 		=======================*/
